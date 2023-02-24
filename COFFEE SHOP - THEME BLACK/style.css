@@ -1,0 +1,150 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* HEADER SECTION, NAVBAR SECTION, COFFEE SHOP STARTING */
+.container-of-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    margin-left:10px;
+}
+.logo a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+}
+.col{
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+}
+.col a{
+    color: #fff;
+    text-decoration: none;
+}
+/*  NAVBAR SECTION, HAEDER SECTION ENDING */
+/* HEADER SECTION LIKE BANNER AT ALL */
+.container{
+    display: flex;
+}
+.container img{
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.paraghraph-haedings-on-header{
+    width: 500px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.header-button{
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 470px;
+    margin-left: -360px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+/* MAIN BODY SECTION */
+.main-heading{
+    text-align: center;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 98%;
+    height: 40px;
+    margin-top: 10px;
+}
+/* BRANDING CARDS */
+.container-of-cards{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.col-1{
+    border: 5px solid #000;
+}
+/*  CLIP SECTION */
+.container-of-cards2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.text-box{
+    margin-top: 40px;
+}
+.text-box h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 3rem;
+}
+.text-box-button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 420px;
+    margin-top: -10px;
+}
+/* Upper Footer */
+.container-of-footer{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.search-box{
+width: 550px;
+height: 30px;
+margin-top: 10px;
+margin-left: 30px;
+}
+i{
+    margin-left: -30px;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    margin-top: -40px;
+    justify-content: flex-end;
+}
+.links a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+}
+/* FOOTER */
+.container-of-last-footer{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+.container-of-last-footer i{
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 45px;
+}
+.container-of-last-footer h5{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: -5px;
+}
