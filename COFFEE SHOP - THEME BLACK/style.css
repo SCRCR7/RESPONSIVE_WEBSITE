@@ -279,7 +279,7 @@ hr{
       margin: 10px;
     }
     
-  }
+  
 .container-of-cards .card p{
     padding-left: 20px ;
     font-size: 1em;
@@ -403,7 +403,7 @@ i{
         justify-content: center;
         flex-direction: column;
         width: 100vw;
-        position: fixed;
+        position: sticky;
         z-index: 1;
         box-shadow: 0 0 3px 3px rgba(0,0,0,0.5);  
         margin: auto;
